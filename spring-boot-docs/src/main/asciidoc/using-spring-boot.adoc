@@ -218,8 +218,8 @@ Maven, there is no "`super parent`" to import to share some configuration.
 
 	repositories {
 ifeval::["{spring-boot-repo}" != "release"]
-		maven { url "http://repo.spring.io/snapshot" }
-		maven { url "http://repo.spring.io/milestone" }
+		maven { url "https://repo.spring.io/snapshot" }
+		maven { url "https://repo.spring.io/milestone" }
 endif::[]
 ifeval::["{spring-boot-repo}" == "release"]
 		jcenter()
@@ -243,8 +243,8 @@ managed by Spring Boot:
 	buildscript {
 		repositories {
 ifeval::["{spring-boot-repo}" != "release"]
-			maven { url "http://repo.spring.io/snapshot" }
-			maven { url "http://repo.spring.io/milestone" }
+			maven { url "https://repo.spring.io/snapshot" }
+			maven { url "https://repo.spring.io/milestone" }
 endif::[]
 ifeval::["{spring-boot-repo}" == "release"]
 			jcenter()
@@ -261,8 +261,8 @@ endif::[]
 
 	repositories {
 ifeval::["{spring-boot-repo}" != "release"]
-		maven { url "http://repo.spring.io/snapshot" }
-		maven { url "http://repo.spring.io/milestone" }
+		maven { url "https://repo.spring.io/snapshot" }
+		maven { url "https://repo.spring.io/milestone" }
 endif::[]
 ifeval::["{spring-boot-repo}" == "release"]
 		jcenter()

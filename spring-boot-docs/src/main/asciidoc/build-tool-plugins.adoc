@@ -85,11 +85,11 @@ If you are using a milestone or snapshot release you will also need to add appro
 	<pluginRepositories>
 		<pluginRepository>
 			<id>spring-snapshots</id>
-			<url>http://repo.spring.io/snapshot</url>
+			<url>https://repo.spring.io/snapshot</url>
 		</pluginRepository>
 		<pluginRepository>
 			<id>spring-milestones</id>
-			<url>http://repo.spring.io/milestone</url>
+			<url>https://repo.spring.io/milestone</url>
 		</pluginRepository>
 	</pluginRepositories>
 ----
@@ -192,8 +192,8 @@ If you are using a milestone or snapshot release you will also need to add appro
 ----
 	buildscript {
 		repositories {
-			maven.url "http://repo.spring.io/snapshot"
-			maven.url "http://repo.spring.io/milestone"
+			maven.url "https://repo.spring.io/snapshot"
+			maven.url "https://repo.spring.io/milestone"
 		}
 		// ...
 	}
@@ -282,7 +282,7 @@ you need to mark the embedded container dependencies as belonging to the war plu
 
 	repositories {
 		jcenter()
-		maven { url "http://repo.spring.io/libs-snapshot" }
+		maven { url "https://repo.spring.io/libs-snapshot" }
 	}
 
 	dependencies {
